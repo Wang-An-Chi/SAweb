@@ -1,0 +1,42 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: #3e4674;
+    width: 100%;
+    height: 150px;
+    position: absolute;
+    position: fixed;
+}
+
+.title{
+    font-size: 30px;
+    font-weight: bold;
+    color: honeydew;
+    text-align: center;
+    padding: 60px 0 10px 0;
+    border: solid  springgreen;
+}
+main{
+    
+}
+.bg{
+    background-color: rgb(231, 231, 231);
+    width: 100%;
+    border: solid;
+    position: absolute;
+    position: fixed;
+    margin: 110px 0 110px 0px;
+    border-radius: 35px 35px 0 0;
+    overflow: auto;
+    height: 100%;
+}
+
+.boxx{
+    font-size: 20px;
+    border: solid red; 
+    margin: 30px;
+    height: 150px;
+    width: 80%;
+}

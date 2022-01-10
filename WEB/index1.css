@@ -1,0 +1,107 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    /*border: solid darkblue;*/
+}
+header{
+    background-color: #3e4674;
+    width: 100%;
+    height: 15%;
+    /*border: tan solid;*/
+}
+
+.title{
+    font-size: 3.5vh;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 3vh 0 0px 0;
+    /*border: solid  springgreen;*/
+}
+main{
+    width: 100%;
+    /*border: solid rgb(228, 59, 177);*/
+    height: 82%;
+    position: relative;
+    top: -5%;
+    border-radius: 25px 25px 0 0;
+    background-color: rgb(240, 240, 240);
+    padding: 0 0 0px 0;
+    -webkit-filter: drop-shadow(0px -2px 3px rgba(0, 0, 0, 0.603));
+}
+.box{
+    /*border: darkgreen solid;*/
+    height: 96%;
+    padding: 20px 0 0px 0;
+    overflow: auto;
+}
+.boxx{
+    /*border: darkgoldenrod solid ;*/
+    height: 100px;
+    width: 88vw;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 15px;
+    background-color: rgb(255, 255, 255);
+    -webkit-filter: drop-shadow(0px 0px 3px rgba(0, 0, 0, 0.308));
+}
+.nofoottext{
+    font-size: 15px;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    text-align: center;
+    position: relative;
+    top: -6px;
+    color: rgba(49, 49, 49, 0.712);
+    letter-spacing: 3px;
+}
+
+
+.but{
+    width: 100%;
+    /*border: darkgreen solid;*/
+    height: 8%;
+    position: relative;
+    top: -5%;
+    box-shadow: rgba(0, 0, 0, 0.562) 0px 3px 10px;
+    display: flex;
+}
+.icon{
+    width: 33%;
+    height: 100%;
+    border: thin;
+    background: rgb(255, 255, 255);
+}
+img{
+    /*margin: 0 auto;*/
+    width: 3vh;
+}
+.btext{
+    font-size:x-small;
+    font-family: "微軟正黑體";
+    letter-spacing: 2px;
+}
+
+.left{
+    float: left;
+    font-family: "微軟正黑體";
+    margin: 20px 0 0 20px;
+    
+}
+.name{
+    padding-left: 3px;
+    font-weight: bold;
+    font-size: 18px;
+}
+.enter{
+    margin-top: 10px;
+    color: #707070;
+}
+
+.right{
+    float: right;
+    font-family: "微軟正黑體";
+    font-weight: bold;
+    margin: 40px 10px 0 0;
+}
